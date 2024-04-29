@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: sboot-app-docker
+
+system:
+  enveroment:
+    name: ${MYSQL_DATASOURCE_URL}
